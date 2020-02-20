@@ -17,7 +17,7 @@ public class AmazonElementsTest {
 	{
 		driver=driver1;
 	}
-
+// test
 	By SignInText= By.xpath("//span[contains(text(),'Hello. Sign in')]");
 	By SignInButton= By.xpath("//div[@id='nav-flyout-ya-signin']//span[@class='nav-action-inner'][contains(text(),'Sign in')]");
 	By Username= By.xpath("//input[@id='ap_email']");
