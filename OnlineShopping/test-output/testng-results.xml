@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="243318" started-at="2020-02-14T16:45:08Z" finished-at="2020-02-14T16:49:11Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="243318" started-at="2020-02-14T16:45:08Z" finished-at="2020-02-14T16:49:11Z">
+      <class name="com.amazon.testfiles.VerifyAmazonTest">
+        <test-method status="PASS" signature="LaunchBrowser(java.lang.String)[pri:0, instance:com.amazon.testfiles.VerifyAmazonTest@4cf777e8]" name="LaunchBrowser" is-config="true" duration-ms="23191" started-at="2020-02-14T11:45:08Z" finished-at="2020-02-14T11:45:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="AmazonRun()[pri:0, instance:com.amazon.testfiles.VerifyAmazonTest@4cf777e8]" name="AmazonRun" duration-ms="219895" started-at="2020-02-14T11:45:31Z" finished-at="2020-02-14T11:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AmazonRun -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.amazon.testfiles.VerifyAmazonTest@4cf777e8]" name="terminateBrowser" is-config="true" duration-ms="199" started-at="2020-02-14T11:49:11Z" finished-at="2020-02-14T11:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.amazon.testfiles.VerifyAmazonTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>
